@@ -1,0 +1,212 @@
+# Help translate this file into more languages!
+Messages:
+  Claim:
+    NotInside: '&7Dışarıda bir talep olmadan bunu yapamazsınız!'
+    Visualize: '&7Bu talebin sınırları bir sonraki dakika boyunca vurgulanacaktır!'
+    Auction:
+      NotInside: '&7Açık artırma yapmak için herhangi bir talebin içinde değilsiniz!'
+      NotOwner: '&cBaşka bir oyuncunun talebini açık artırma yapamazsınız! &8Duh...'
+      Created: '&aAçık artırma şu anda talep #%claim_id% için $%auction_price%! &7Açık
+        artırma tabelası yapmak için `/claim auction sign` komutunu kullanın.'
+      Deleted: '&cAçık artırma talebi talep #%claim_id% için silindi!'
+    Override:
+      Enabled: '&7Geçersiz kılma &aetkinleştirildi&7, artık herhangi bir talebi düzenleyebilirsiniz!
+        &8Dikkatli olun, büyük güç büyük sorumluluk getirir!'
+      Disabled: '&7Geçersiz kılma &cdevre dışı bırakıldı&7, artık diğer oyuncuların
+        taleplerini düzenleyemezsiniz!'
+    Deleted: '&cTalep silindi! &8Bu bölge artık korunmuyor.'
+    Resize:
+      Success: '&7Talep başarıyla boyutlandırıldı &f%claim_width% x %claim_length%'
+      OverlappingChild: '&cBoyutlandırılan alan çocuk talepleri içermiyor!'
+      OverlappingParent: '&cBoyutlandırılan alan ana talepleri içermiyor!'
+    Teleport: '&7%f%claim_name%&f''ın evine ışınlandınız!'
+    None: '&7Herhangi bir talebin sahibi veya üyesi değilsiniz!'
+    Permission:
+      Claim: '&7Bu, &f%claim_owner%&7''ın talebinin bir üyesi değilsiniz!'
+      AdminClaim: '&7Burada bunu yapamazsınız!'
+    Flag: '&7Talep bayrağı &f%claim_flag%&7 olarak değiştirildi &f%claim_flag_value%'
+    Mode:
+      Enabled:
+        Admin: '&fYönetici Modu &aetkinleştirildi&f, artık oluşturduğunuz her yeni
+          talep bir yönetici talebi olacaktır'
+      Disabled:
+        Admin: '&fYönetici Modu &ckapatıldı&f, artık oluşturduğunuz her yeni talep
+          bir kullanıcı talebi olacaktır'
+      Failed:
+        Item: '&fTalep modunu değiştirmeniz yasak! &7Lütfen talep öğesini takın!'
+        Location: '&fTalep modunu değiştirmeniz yasak! &8Talep asanızı sıfırlayın!'
+    Item:
+      InClaim: '&7Talebin bir köşesine sağ tıklayarak boyutu değiştirebilirsiniz!'
+      NoClaim: '&7Talep oluşturmak için iki köşeye sağ tıklayın!'
+      NotOwner: '&7Düzenleyemediğiniz bir talebin içindesiniz!'
+      Wand:
+        Normal: '&7Yeni bir talep oluşturuyorsunuz, oluşturmayı onaylamak için başka
+          bir köşeye sağ tıklayın'
+        SubClaim: '&7Bir &falt-talep&7 oluşturuyorsunuz! Onaylamak için ana talep
+          içinde başka bir köşeye sağ tıklayın'
+        Admin: '&7Bir &fYönetici &7talep oluşturuyorsunuz, oluşturmayı onaylamak için
+          başka bir köşeye sağ tıklayın'
+        Edit: '&cTalebi düzenliyorsunuz! Talep boyutunu değiştirmek için başka bir
+          köşeye sağ tıklayın!'
+    Create:
+      Success: '&aBaşarılı! &7Bu &f%claim_width% x %claim_length% &7talep artık size
+        ait!'
+      Failed:
+        Size: '&cHata! &7Bu talep yeterince büyük değil! Lütfen 10x10dan büyük yapın!'
+        SizeLarge: '&cHata! &7Bu talep şu anda çok büyük! Lütfen %max%x%max%den küçük
+          yapın!'
+        OtherClaim: '&cHata! &7Bu alan başka bir talebi örtüyor!'
+        Database: '&cHata! &7Bu talep oluşturulurken çok ciddi bir sorun oluştu, lütfen
+          bildirin!'
+        Count: '&cHata! &7Çok fazla talebiniz var... ne kadarına ihtiyacınız var dostum?'
+    Member:
+      Self: '&dKendinizi üye olarak ekleyemezsiniz.'
+      Exists: '&7Bu oyuncu zaten bu talebin bir üyesi!'
+      FlagEdit: '&f%member_name% için &7%member_flag% &fbayrağı &b%member_flag_value%
+        olarak ayarlandı'
+      Removed: '&c%member_name%, &b%claim_name% &cile silindi!'
+      Leave: '&c%f%claim_name%&cyi terk ettiniz!'
+      Added: '&fÜye %member_name% bu talebe eklendi!'
+      Notification:
+        Removed: '&c%f%claim_name%&c''dan çıkarıldınız! &7Artık burayı ziyaret edemezsiniz!'
+        Leave: '&cÜye &7%member_name% &csizin talebinizden ayrıldı!'
+  
+  Prefix: '&7[&6Claims&7] '
+  InvalidCommand: '&cGeçersiz argüman! &7/%command% yardım'
+  NoPermission: '&cÜzgünüm! &7Bunu yapma izniniz yok!'
+  Reload: '&eYapılandırmayı ve dil dosyasını yeniden yüklendi.'
+  InvalidFlagValue: '&cBayrak değeri geçerli değil! &7Lütfen tekrar deneyin.'
+  InvalidFlag: '&cBayrak geçerli değil! &7Lütfen tekrar deneyin.'
+  CannotEdit: '&cBu işlemi bir talep dışında yapamazsınız!'
+  UnknownID: '&cTalep kimliği geçerli değil. &7Lütfen düzenleyebileceğiniz talepleri
+    görmek için `/talep liste` komutunu kullanın!'
+  PlayerExist: '&cOyuncu `%invalid_name%` mevcut değil!'
+  TooFar: '&7Bu işlemi yapmak için çok uzaksınız!'
+  WorldDisabled: '&cBu dünyada talepler devre dışı bırakılmış!'
+  NotInside: '&7Dışında bir talepken bunu yapamazsınız!'
+  Visualize: '&7Bu talebin sınırları bir sonraki dakika boyunca vurgulanacaktır!'
+  Auction:
+    NotInside: '&7Bir talebin içinde değilsiniz, açık artırmayı başlatamazsınız!'
+    NotOwner: '&cBaşka bir oyuncunun talebini açık artıramazsınız! &8Duh...'
+    Created: '&aTalep #%claim_id% için açık artırma şu an canlı! Fiyat: $%auction_price%!
+      &7Açık artırma levhası oluşturmak için `/talep açık artırma levhası` komutunu
+      kullanın.'
+    Deleted: '&cAçık artırma, talep #%claim_id% için silindi!'
+  Override:
+    Enabled: '&7Geçersiz kılma &aetkin&7, artık herhangi bir talebi düzenleyebilirsiniz!
+      &8Unutmayın, büyük güç büyük sorumluluk getirir!'
+    Disabled: '&7Geçersiz kılma &ckapalı&7, artık diğer oyuncuların taleplerini düzenleyemezsiniz!'
+  Deleted: '&cTalep silindi! &8Bu alan artık korunmuyor.'
+  Resize:
+    Success: '&7Talep başarıyla &f%claim_width% x %claim_length% &7olarak yeniden
+      boyutlandırıldı!'
+    OverlappingChild: '&cYeniden boyutlandırılan alan, alt talepleri içermiyor!'
+    OverlappingParent: '&cYeniden boyutlandırılan alan, üst talepleri içermiyor!'
+  Teleport: '&7%f%claim_name%&7 evine teleport edildi!'
+  None: '&7Herhangi bir talebin sahibi veya üyesi değilsiniz!'
+  Permission:
+    Claim: '&7%f%claim_owner%&7 talebinin bir üyesi değilsiniz!'
+    AdminClaim: '&7Burada bunu yapamazsınız!'
+  Flag: '&7Talep bayrağı &f%claim_flag% &7değiştirildi: &f%claim_flag_value%'
+  Mode:
+    Enabled:
+      Admin: '&fAdmin Modu &aetkin&f, bundan sonra yapacağınız her yeni talep bir
+        yönetici talebi olacaktır'
+    Disabled:
+      Admin: '&fAdmin Modu &ckapalı&f, bundan sonra yapacağınız her yeni talep bir
+        kullanıcı talebi olacaktır'
+    Failed:
+      Item: '&fTalep modunuzu değiştirmek yasaktır! &7Lütfen talep öğesini donatın!'
+      Location: '&fTalep modunuzu değiştirmek yasaktır! &8Talep asanızı sıfırlayın!'
+    Item:
+      InClaim: '&7Bu talebin boyutunu değiştirmek için bir köşesine sağ tıklayın!'
+      NoClaim: '&7Talep oluşturmak için iki köşesine sağ tıklayın!'
+      NotOwner: '&7Düzenleyemediğiniz bir talebin içindesiniz!'
+      Wand:
+        Normal: '&7Yeni bir talep oluşturuyorsunuz, oluşturmayı onaylamak için başka
+          bir köşeye sağ tıklayın'
+        SubClaim: '&7Bir &falt-talep&7 oluşturuyorsunuz! Onaylamak için ana talep
+          içinde başka bir köşeye sağ tıklayın'
+        Admin: '&7Bir &fAdmin &7talep oluşturuyorsunuz, oluşturmayı onaylamak için
+          başka bir köşeye sağ tıklayın'
+        Edit: '&cTalebi düzenleme! Talep boyutunu değiştirmek için başka bir köşeye
+          sağ tıklayın'
+    Create:
+      Success: '&aBaşarılı! Bu &f%claim_width% x %claim_length% &7talep artık sizin!'
+      Failed:
+        Size: '&cHata! Bu talep yeterince büyük değil! Lütfen 10x10''dan büyük yapın!'
+        SizeLarge: '&cHata! Bu talep şu anda çok büyük! Lütfen %max%x%max%''den küçük
+          yapın!'
+        OtherClaim: '&cHata! Bu alan başka bir talebi örtüyor!'
+        Database: '&cHata! Bu talep oluşturulurken çok ciddi bir sorun oluştu, lütfen
+          bildirin!'
+        Count: '&cHata! Çok fazla talebiniz var... ne kadarına ihtiyacınız var dostum?'
+        
+        Member:
+          Self: '&dYou can''t add your self as a member silly.'
+          Exists: '&7This player is already a member of this claim!'
+          FlagEdit: '&fFlag &7%member_flag%&f for &7%member_name% &fwas set to &b%member_flag_value%'
+          Removed: '&c%member_name% was removed from &b%claim_name%&c!'
+          Leave: '&cYou have left &b%claim_name%&c!'
+          Added: '&fMember %member_name% has been added to this claim!'
+          Notification:
+            Removed: '&cYou were removed from &b%claim_name%&c! &7You can no longer
+              visit here!'
+            Leave: '&cMember &7%member_name% &chas left your claim!'
+  Convert:
+    Started: '&fEklenti &7%plugin% &fiçin dönüşüm başladı...'
+    Finished: '&fEklenti &7%plugin% &fiçin dönüşüm tamamlandı!'
+    Failed: '&fTalep kimliği &7%claim%&f için &7%plugin% &ceklentisini dönüştürme
+      &cBAŞARISIZ &fo oldu! &7Daha fazla bilgi konsolda.'
+    Success: '&fTalep kimliği &7%claim%&f için &7%plugin% &aBAŞARIYLA &fdönüştürüldü!'
+    Unknown: '&7Bilinmeyen eklenti %plugin% verildi, lütfen bu listeden seçin &f%list%'
+  Request:
+    New: '&aYeni &fistek &7%request_name% &f, talebinize katılmak için!'
+    Reminder: '&f%claim_requests% isteğiniz bekliyor!'
+    Accepted: '&7%request_name%''ın &fisteği kabul edildi!'
+    Denied: '&7%request_name%''ın &cisteği reddedildi!'
+    Requester:
+      Accepted: '&a%claim_name% &etalebinize katılma isteğiniz kabul edildi!'
+      Denied: '&c%claim_name% &etalebinize katılma isteğiniz reddedildi!'
+      Already: '&cBu talebe katılmak için zaten istekte bulundunuz! &8Lütfen sakin
+        olun...'
+      Sent: '&f%claim_name% &etalebinize katılma isteği gönderildi!'
+  EventDenied: '&cBir dış güç bu işlemi reddetti!'
+
+Help:
+  Prefix: '&e&m-----&6&l BetterClaims &8| Yardım &e&m-----'
+  Help: ' &7- &e/%command% help &7- Yardım listesini gösterir'
+  Reload: ' &7- &e/%command% reload &7- Eklentiyi yeniden yükler'
+  Create: ' &7- &e/%command% create &7- Bir talep oluşturur'
+  Info: ' &7- &e/%command% info &7- Talep bilgilerini görüntüler'
+  List: ' &7- &e/%command% list &7- Düzenleyebileceğiniz tüm talepleri listeler'
+  Request: ' &7- &e/%command% request &7- Bir talebe katılmak için istekte bulunur'
+  Flags: ' &7- &e/%command% flags &7- Talep bayraklarını değiştirir'
+  Convert: ' &7- &e/%command% convert <plugin_adı> &7- Eklentinin taleplerini Better
+    Claim''e dönüştürür'
+  ClaimItem: ' &7- &e/%command% claimitem &7- Talep öğesinin bir kopyasını alır'
+  AdminClaim: ' &7- &e/%command% adminclaim &7- Talep modunu yönetici talebine geçirir'
+  AdminOverride: ' &7- &e/%command% adminoverride &7- Herhangi bir talebi düzenleme
+    yeteneğini etkinleştirir'
+  Auction: ' &7- &e/%command% auction <oluştur/sil/imzala> &7- Talepleri başkalarına
+    belirli bir fiyat ve süre için satın'
+  AddMember: ' &7- &e/%command% addmember <oyuncu_adı> &7- Bulunduğunuz talebe üye
+    ekler'
+
+Usage:
+  Convert: '&cKullanım&7: /%command% convert <plugin_adı>'
+  Auction:
+    Create: '&cKullanım&7: /%command% auction create <fiyat> <saat_cinsinden_süre
+      (0 = sonsuz)>'
+  AddMember: '&cKullanım&7: /%command% addmember <oyuncu_adı>'
+
+ClaimInfo:
+- '&e&m------&6&l BetterClaims &8| Talep Bilgisi &e&m------'
+- ''
+- '&fTalep Adı&7: &r%claim_name%'
+- '&fSahip&7: %claim_owner%'
+- '&fKimlik&7: %claim_id%'
+- '&fÜyeler&7: %claim_members%'
+- '&fBoyut&7: %claim_width% x %claim_length%'
+- '&fKonum&7: %claim_location%'
+- '&fDünya&7: %claim_location_world%'
